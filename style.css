@@ -1,0 +1,41 @@
+body{
+    background-color: #e6e7d5;
+}
+.secao-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e6e7d5;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    /* grid-template-rows: auto; */
+    grid-gap: 50px;
+    margin: 0;
+}
+
+img{
+    width: 256px;
+    height: 157px;
+}
+
+div h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin: 20px 0 25px 20px;
+    font-size: 14px;
+}
+
+div{
+
+    background-color: rgb(255 251 232);
+    width: 256px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 25px;
+}
