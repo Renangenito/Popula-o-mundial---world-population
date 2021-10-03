@@ -1,6 +1,55 @@
 body{
     background-color: #e6e7d5;
+   
 }
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #127bbd;
+}
+
+.titulo-cabecalho{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}
+
+.logo-cabecalho{
+    width: 157px;
+    height: 157px;
+}
+
+.nav-bar{
+    display: flex;
+    padding-left: 100px;
+    background-color: rgb(190, 190, 188);
+    margin-bottom: 40px;
+}
+
+.nav-bar-home{
+    color: white;
+    font-weight: bolder;
+    width: 60px;
+    margin-right: 10px;
+    height: 24px;
+    padding: 2px 0 0px 4px;
+    background-color: darkgrey;
+
+    
+}
+
+.nav-bar-porcentagem{
+    color: white;
+    font-weight: bolder;
+    width: 240px;
+    height: 24px;
+    padding: 2px 0 0px 4px;
+    background-color: darkgrey;
+}
+
 .secao-body{
     display: flex;
     flex-direction: row;
