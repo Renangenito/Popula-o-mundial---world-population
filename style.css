@@ -4,11 +4,13 @@ body{
 }
 
 .cabecalho{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
     background-color: #127bbd;
+    padding-left: 50px;
 }
 
 .titulo-cabecalho{
@@ -37,17 +39,60 @@ body{
     height: 24px;
     padding: 2px 0 0px 4px;
     background-color: darkgrey;
+    
+}
 
+.nav-bar-home:hover{
+    text-decoration: underline;
+    background-color: rgb(146, 145, 145);
+    cursor: pointer;
+}
+
+.nav-bar-home:active{
+    background-color: rgb(112, 112, 112);
     
 }
 
 .nav-bar-porcentagem{
     color: white;
     font-weight: bolder;
-    width: 240px;
+    width: 250px;
     height: 24px;
     padding: 2px 0 0px 4px;
     background-color: darkgrey;
+   
+}
+
+.nav-bar-porcentagem:hover{
+    text-decoration: underline;
+    background-color: rgb(146, 145, 145);
+    cursor: pointer;
+
+}
+
+.nav-bar-porcentagem:active{
+    background-color: rgb(112, 112, 112);
+}
+
+.div-filtro{
+    display: block;
+    background-color: #e6e7d5;
+}
+
+.label-filtro{
+    margin-left: 72px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(24, 8, 112);
+}
+
+.input-filtro{
+    width: 256px;
+    height: 30px;
+    margin-left: 72px;
+    border: none;
+    margin-bottom: 36px;
+    margin-top: 6px;
 }
 
 .secao-body{
@@ -57,7 +102,7 @@ body{
     background-color: #e6e7d5;
 }
 
-main{
+.menu-index{
     display: grid;
     grid-template-columns: 260px 260px 260px 260px;
     /* grid-template-rows: auto; */
@@ -65,12 +110,12 @@ main{
     margin: 0;
 }
 
-img{
+.paises-imagens{
     width: 256px;
     height: 157px;
 }
 
-div h1{
+div .titulo-card{
     font-family: 'Merriweather', serif;
     font-weight: bold;
     margin: 20px 0 25px 20px;
@@ -83,8 +128,73 @@ div{
     width: 256px;
 }
 
-p{
+.populacao-card, .regiao-card, .capital-card{
     font-family: monospace;
     font-size: 12px;
     margin-left: 25px;
 }
+
+
+
+/* Pagina dois - porcentagem */
+.corpo-porcentagem{
+    background-color: white;
+}
+
+.menu-porcentagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.secao-porcentagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-porcentagem{
+    width: 531px;
+    height: 608px;
+    padding-top: 45px;
+}
+
+.texto-porcentagem{
+    font-family: 'Merriweather', serif;
+}
+
+.referencias{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 150px;
+    background-color: white;
+}
+
+.titulo-referencias{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.referencias a{
+    margin-bottom: 10px;
+}
+
+
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #127bbd;
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-decoration: underline;
+}
+
