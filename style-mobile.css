@@ -1,0 +1,66 @@
+@media screen and (max-width: 823px) {
+    .cabecalho{
+        height: 90px;
+        padding-left: 25px;
+    }
+    .logo-cabecalho{
+        width: 60px;
+        height: 60px;
+    }
+    .titulo-cabecalho{
+        font-size: 20px;
+    }
+    .nav-bar{
+        padding-left: 55px
+    }
+
+    .menu-index{
+        grid-template-columns: 260px;
+        grid-template-rows: auto;
+        grid-gap: 50px;
+    }
+
+    .div-filtro{
+        padding-bottom: 15px
+    }
+    .rodape{
+        height: 90px;
+        font-size: 5px;
+    }
+
+    /* Página dois da porcentagem... */
+
+    .imagem-porcentagem{
+        width: 304px;
+        height: 372px;
+    }
+
+    .secao-porcentagem{
+        align-items: center;
+    }
+    .texto-porcentagem{
+        font-size: 10px;
+        margin-top: 42px;
+    }
+    .div-referencias{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .titulo-referencias{
+        font-size: 20px;
+    }
+    .referencias{
+        margin-left: 33px;
+    }
+    .referencias a{
+        font-size: 15px;
+    }
+    .imagem-mundo-pessoas{
+        width: 255px;
+        height: 255px;
+        background-color: white;
+        margin-left: 73px;
+        margin-top: 41px;
+    }
+}

@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     background-color: #e6e7d5;
    
@@ -75,20 +78,23 @@ body{
 }
 
 .div-filtro{
-    display: block;
+    display: flex;
     background-color: #e6e7d5;
+    flex-direction: column;
+    margin: 67px 0 32px 8px;
 }
+
 
 .label-filtro{
     margin-left: 72px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color: rgb(24, 8, 112);
 }
 
 .input-filtro{
     width: 256px;
-    height: 30px;
+    height: 40px;
     margin-left: 72px;
     border: none;
     margin-bottom: 36px;
@@ -115,28 +121,30 @@ body{
     height: 157px;
 }
 
-div .titulo-card{
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    margin: 20px 0 25px 20px;
-    font-size: 14px;
+.card-paises .titulo-card{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    margin: 20px 0 15px 20px;
+    font-size: 21px;
 }
 
-div{
+.card-paises{
 
     background-color: rgb(255 251 232);
     width: 256px;
+    padding-bottom: 40px;
 }
 
 .populacao-card, .regiao-card, .capital-card{
     font-family: monospace;
-    font-size: 12px;
-    margin-left: 25px;
+    font-size: 14px;
+    margin-left: 22px;
 }
 
 
 
-/* Pagina dois - porcentagem */
+/* Pagina dois - porcentagem......... */
+
 .corpo-porcentagem{
     background-color: white;
 }
@@ -162,6 +170,20 @@ div{
 .texto-porcentagem{
     font-family: 'Merriweather', serif;
 }
+.div-referencias{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 53px;
+    padding: 100px 0 100px 150px;
+}
+.imagem-mundo-pessoas{
+    width: 368px;
+    height: 368px;
+    background-color: white;
+    margin-left: 285px;
+}
+
 
 .referencias{
     display: flex;
@@ -198,3 +220,9 @@ div{
     text-decoration: underline;
 }
 
+.invisivel{
+    display: none;
+}
+.visivel{
+    display: inline;
+}
