@@ -1,5 +1,5 @@
 # Site - Wold Population
-## Trata-se de um site que mostra em cards todos os países do mundo contendo nome, população, região e capital. A segunda página mostra a porcentagem dos países mais populosos e as referências da pesquisa. O site está todo em inglês por opção minha, e está responsivel para a versão mobile! 
+## Trata-se de um site que mostra em cards todos os países do mundo contendo nome, população, região e capital. A segunda página mostra a porcentagem dos países mais populosos e as referências da pesquisa. O site está todo em inglês por opção minha, e está responsivo para a versão mobile! 
 # Primeira página - Desktop
 ![paises-desktop](https://user-images.githubusercontent.com/77756047/136093910-d94b5b11-18dc-484a-847e-8415d0beee0e.png)
 # Primeira página - Mobile
