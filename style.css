@@ -1,6 +1,7 @@
 *{
     margin: 0;
 }
+
 body{
     background-color: #e6e7d5;
    
@@ -117,7 +118,7 @@ body{
 }
 
 .paises-imagens{
-    width: 256px;
+    width: 100%;
     height: 157px;
 }
 
@@ -133,6 +134,14 @@ body{
     background-color: rgb(255 251 232);
     width: 256px;
     padding-bottom: 40px;
+}
+
+.card-paises:hover{
+    border: 2px solid #127bbd;
+   
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+     
 }
 
 .populacao-card, .regiao-card, .capital-card{
